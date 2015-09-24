@@ -1,0 +1,139 @@
+#header img{
+	float: right; 
+	position: relative;
+	
+	margin-right: 100px;
+	margin-top: -50px;
+
+	border-radius: 25%;
+	border: 2px solid #C8C8C8;
+
+	transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg); /*IE 9*/
+    	-webkit-transform: rotate(-7deg); /*Chrome, Safari, Opera*/
+
+	-moz-box-shadow: 2px 3px 5px 7px #ccc; /* Firefox 3.5 - 3.6 */
+	box-shadow: 2px 3px 5px 7px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}/*Profile picture*/
+
+#subhead1{
+	clear: both;
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+
+	margin: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom: 2px solid #C8C8C8;
+	padding: 10px 0px 5px 0px;
+
+	font-size: 2em;
+	font-family: Vivaldi, cursive;
+}
+
+#subhead2{
+	font-size: 15px;
+	font-family: Courier;
+	background-color: #F2D8A7;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 5px 0px 0px 10px;
+}
+
+/*****************************************************************************************************************************/
+body{
+	font-family: Rockwell, Candara, cursive;
+	background-color: #8C001A;
+}
+
+#main{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: #ffffff;
+}
+
+/*****************************************************************************************************************************/
+em{
+	color: #C8C8C8;
+}/*General - Emphasis*/
+
+a:hover{
+	color: #00ff00;
+	text-decoration: none;
+}/*General - Hovering over links*/
+
+a:visited{
+	color: #ff0000;
+	text-decoration: none;
+}/*General - Clicked on links*/
+
+/*****************************************************************************************************************************/
+.section{
+	width: 95%;
+	height: auto;
+	background-color: #F2D8A7;
+
+	margin: auto;
+	overflow: auto;
+}/*Container for both secpartA & secpartB*/
+
+.secpartA{
+	float: left;
+	width: 29%;
+	height: inherit;
+	text-align: right;
+	background-color: #F2D8A7;
+
+	margin: auto;
+	padding-top: 5px;
+	overflow:auto;	
+}/*LHS - Grey vertical line*/
+
+.secpartB{
+	float: right;
+	width: 70%;
+	height: auto;
+
+	display: inline-block;
+	background-color: #F2D8A7;
+
+	margin-top: -15px;
+	margin-bottom: 15px;
+	border-left: 2.5px solid #808080;
+	padding: 5px 0px 0px 5px;
+	overflow:auto;
+}/*RHS - Grey vertical line*/
+
+.section .secpartA strong em{
+	color: #000000;
+	text-align: right;
+}/*LHS font control*/
+
+.section .secpartB ul li p{
+	font-weight: bold;
+}/*Specific - Jobs*/
+
+.section .secpartB ul em{
+	color: #A0A0A0;
+	font-size: 15px;
+}/*Specific - Position, Location & Duration (Experience)*/
+
+/*****************************************************************************************************************************/
+#footer{
+	clear: both;
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff; 
+
+	margin: auto;
+	padding: 5px 0px 10px 0px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top: 2px solid #C8C8C8;
+	
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: center;
+	font-family: Verdana, sans-serif;
